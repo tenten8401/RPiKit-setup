@@ -8,6 +8,7 @@ auto wlan1
 iface eth0 inet dhcp
 iface lo inet loopback
 
+allow-hotplug wlan0
 allow-hotplug wlan1
 
 iface wlan1 inet dhcp
